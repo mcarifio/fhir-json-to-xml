@@ -2,13 +2,13 @@
   "name": "fhir-json-to-xml",
   "version": "0.0.1",
   "description": "A JSON->XML converter for HL7 FHIR",
-    "main": "index.js",  
+  "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha fhir-json-to-xml-converter/test"
+    "test": "./node_modules/.bin/mocha test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mcarifio/FHIR-JSON-to-XML-Converter.git"
+    "url": "git+https://github.com/mcarifio/fhir-json-to-xml.git"
   },
   "author": "Keith W. Boone",
   "license": "SEE LICENSE IN LICENSE.txt",

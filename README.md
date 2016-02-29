@@ -15,3 +15,16 @@ Usage is fairly straight-foward.
 The toXML member function will convert the object to an XML representation.
 It assumes that the object itself complies with the FHIR specification, and does
 not (yet) attempt to handle input implementation errors or validation.
+
+
+Node version of this is similar:
+
+var fj2xml = require('fhir-json-to-xml');
+var fjParser = new fj2xml.FHIRConverter(2);
+var xml = fjParser.toXML(object);
+
+Note that until this node module is published, you install it with:
+
+npm install git+https://github.com/mcarifio/fhir-json-to-xml
+
+Hopefully this will change.
