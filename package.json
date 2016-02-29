@@ -2,6 +2,7 @@
   "name": "fhir-json-to-xml",
   "version": "0.0.1",
   "description": "A JSON->XML converter for HL7 FHIR",
+    "main": "index.js",  
   "scripts": {
     "test": "./node_modules/.bin/mocha fhir-json-to-xml-converter/test"
   },
