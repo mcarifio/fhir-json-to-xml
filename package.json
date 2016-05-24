@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mcarifio/fhir-json-to-xml.git"
+    "url": "git+https://github.com/rdf-pipeline/fhir-json-to-xml.git"
   },
   "author": "Keith W. Boone",
   "license": "SEE LICENSE IN LICENSE.txt",
