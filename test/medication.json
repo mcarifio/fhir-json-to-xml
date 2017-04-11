@@ -4,8 +4,8 @@
     "use": "usual",
     "type": {
       "coding": {
-        "system": "chcs",
-        "code": "chcss:Medication_Profile-8810_3",
+        "system": "cmumps",
+        "code": "cmumpss:Medication_Profile-8810_3",
         "assigner": "US"
       },
       "text": "Medication Profile"
@@ -22,7 +22,7 @@
   "dispenser": {
     "display": "COYOTE, WILE E"
   },
-  "whenHandedOver": "1990-08-23T12:00:00",
+  "whenHandedOver": "1990-01-01T00:00:00",
   "dosageInstruction": [
     {
       "text": "RX: "

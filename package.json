@@ -2,9 +2,9 @@
   "name": "fhir-json-to-xml",
   "version": "0.0.1",
   "description": "A JSON->XML converter for HL7 FHIR",
-  "main": "index.js",
+  "main": "dist/node-fhir-convert.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha test"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,8 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "mocha": "^3.2.0"
   },
-    "main": "dist/node-fhir-convert.js",
   "keywords": [
     "fhir",
     "json",
