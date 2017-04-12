@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedicationDispense xmlns="http://hl7.org/fhir">
+  <identifier>
+    <use value="usual"/>
+    <type>
+      <coding>
+        <system value="cmumps"/>
+        <code value="cmumpss:Medication_Profile-8810_3"/>
+      </coding>
+      <text value="Medication Profile"/>
+    </type>
+  </identifier>
+  <patient>
+    <reference value="2-1000001"/>
+    <display value="BUNNY,BUGS"/>
+  </patient>
+  <dispenser>
+    <display value="COYOTE, WILE E"/>
+  </dispenser>
+  <medicationReference>
+    <reference value="medication-8810_3"/>
+    <display value="ZR-GABAPENTIN (NEURONTIN)--PO 250MG/5ML "/>
+  </medicationReference>
+  <whenHandedOver value="1990-01-01T00:00:00"/>
+  <dosageInstruction>
+    <text value="RX: "/>
+  </dosageInstruction>
+</MedicationDispense>
